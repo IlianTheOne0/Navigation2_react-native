@@ -11,8 +11,34 @@ Css.create
 			justifyContent: 'center',
 			alignItems: 'center',
 			
-			backgroundColor: '#000',
+			backgroundColor: '#000'
 		},
 
+		layout:
+		{
+			width: '100%',
+
+			flex: 1
+		},
+		layout__block:
+		{
+			alignItems: 'center',
+			marginBottom: 16
+		},
+		heading:
+		{
+			marginBottom: 8,
+
+			color: '#ccccccff',
+
+			fontSize: 24,
+			fontWeight: 'bold',
+		},
+		subheading:
+		{
+			color: '#727272ff',
+
+			fontSize: 16
+		}
 	}
 );

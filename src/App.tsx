@@ -1,8 +1,8 @@
 import { View } from "react-native";
 
-import "./utils/TriggerStyles";
+import { DeliveryScreen } from "./screens/Delivery/index";
 
-import HelloWorld from "./components/HelloWorld";
+import "./utils/TriggerStyles";
 
 import { styles } from "./utils/Css";
 
@@ -10,7 +10,7 @@ function App()
 {
   return (
     <View style={styles.container}>
-      <HelloWorld/>
+      <DeliveryScreen/>
     </View>
   );
 }
