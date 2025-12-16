@@ -11,6 +11,8 @@ Css.create
 			justifyContent: 'center',
 			alignItems: 'center',
 			
+			marginTop: 64,
+
 			backgroundColor: '#000'
 		},
 
