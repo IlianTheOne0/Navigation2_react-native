@@ -1,1 +1,3 @@
-import "./MapBlock"
+import "./MapBlock";
+import "./InfoCard";
+import "./InfoCardsSection";

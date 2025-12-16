@@ -16,4 +16,4 @@ Css.create
 			height: 124
 		}
 	}
-)
+);

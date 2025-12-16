@@ -27,7 +27,7 @@ Css.create
 			alignItems: 'center',
 			marginBottom: 16
 		},
-		heading:
+		block__heading:
 		{
 			marginBottom: 8,
 
@@ -36,7 +36,7 @@ Css.create
 			fontSize: 24,
 			fontWeight: 'bold',
 		},
-		subheading:
+		block__sub_heading:
 		{
 			color: '#727272ff',
 
