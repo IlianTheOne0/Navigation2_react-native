@@ -5,7 +5,7 @@ Css.create
 	{
 		delivery__map:
 		{
-			width: 300,
+			width: 340,
 			height: 200,
 
 			borderRadius: 8

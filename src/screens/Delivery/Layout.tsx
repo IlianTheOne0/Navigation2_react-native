@@ -1,4 +1,4 @@
-import { SafeAreaView } from "react-native-safe-area-context";
+import { ScrollView } from "react-native";
 
 import Heading from "./components/Heading";
 import MapBlock from "./components/MapBlock";
@@ -11,14 +11,14 @@ import { styles } from "../../utils/Css";
 function Layout()
 {
 	return (
-		<SafeAreaView style={styles.layout}>
+		<ScrollView style={styles.layout__scrollView} contentContainerStyle={styles.scrollView_content} showsVerticalScrollIndicator={false}>
 			<Heading/>
 
 			<MapBlock/>
 
 			<TypesOfOrders/>
 			<PaymentOptions/>
-		</SafeAreaView>		
+		</ScrollView>	
 	);
 }
 

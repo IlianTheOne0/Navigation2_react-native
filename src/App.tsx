@@ -1,5 +1,7 @@
 import { View } from "react-native";
 
+import { SafeAreaView } from "react-native-safe-area-context";
+
 import { DeliveryScreen } from "./screens/Delivery/index";
 
 import "./utils/TriggerStyles";
@@ -10,7 +12,9 @@ function App()
 {
   return (
     <View style={styles.container}>
-      <DeliveryScreen/>
+      <SafeAreaView style={styles.layout}>
+        <DeliveryScreen/>
+      </SafeAreaView>
     </View>
   );
 }
