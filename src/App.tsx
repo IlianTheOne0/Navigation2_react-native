@@ -9,7 +9,7 @@ import { BottomBar } from "./components/index";
 import { NotFound } from "./screens/NotFound/index";
 import { DeliveryScreen } from "./screens/Delivery/index";
 import { AboutUsScreen } from "./screens/AboutUs/index"
-// import { ContactsScreen } from "./screens/Contacts/index";
+import { ContactsScreen } from "./screens/Contacts/index";
 
 import "./utils/TriggerStyles";
 import { styles } from "./utils/Css";
@@ -26,7 +26,7 @@ function App()
     {
       case "Delivery": return <DeliveryScreen/>;
       case "About Us": return <AboutUsScreen/>;
-      // case "Contacts": return <ContactsScreen/>;
+      case "Contacts": return <ContactsScreen/>;
       default: return <NotFound/>;
     }
   };
