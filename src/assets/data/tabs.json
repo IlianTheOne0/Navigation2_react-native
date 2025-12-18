@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Delivery",
+		"icon": "truck"
+	},
+	{
+		"title": "About Us",
+		"icon": "info"
+	},
+	{
+		"title": "Contacts",
+		"icon": "address-book"
+	}
+]

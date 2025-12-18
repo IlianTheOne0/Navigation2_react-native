@@ -5,11 +5,10 @@ Css.create
 	{
 		container:
 		{
-			width: '100%',
-			height: '100%',
+			flex: 1,
 
 			marginTop: 64,
-
+			
 			backgroundColor: '#000'
 		},
 
@@ -17,7 +16,8 @@ Css.create
 		{
 			width: '100%',
 			
-			flex: 1
+			flex: 1,
+			justifyContent: 'space-between',
 		},
 		layout__block:
 		{
@@ -30,14 +30,14 @@ Css.create
 		layout__scrollView:
 		{
 			width: '100%',
-			height: '100%'
+			flex: 1
 		},
 		scrollView_content:
 		{	
 			justifyContent: 'center',
 			alignItems: 'center',
 
-			paddingBottom: 60,
+			paddingVertical: 20
 		},
 		block__heading:
 		{

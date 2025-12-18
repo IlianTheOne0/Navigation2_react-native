@@ -1,11 +1,8 @@
-import { useState } from "react";
-
 import { View } from "react-native";
 import { Text } from "react-native";
-import { Image } from "react-native";
 import { ImageSourcePropType } from "react-native";
 
-import DefaultIcon from "../assets/images/default-icon.svg";
+import { SafeImage } from "../../../components/index";
 
 import { styles } from "../../../utils/Css";
 
@@ -19,18 +16,11 @@ type InfoCardProps =
 
 function InfoCard({ title, description, icon} : InfoCardProps)
 {
-	const [imageError, setImageError] = useState(false);
-
 	if (!title || !description) { return null; }
 	
 	return (
 		<View style={styles.delivery__infoCard}>
-			{
-				imageError ?
-				(<DefaultIcon width={50} height={50} style={styles.infoCard__icon}/>)
-				:
-				(<Image style={styles.infoCard__icon} source={icon} onError={() => setImageError(true)}/>)
-			}
+			<SafeImage source={{ uri: `https://img.icons8.com/color/96/${icon}.png`}} style={styles.infoCard__icon}/>
 
 			<View style={styles.infoCard__textBlock}>
 				<Text style={styles.infoCard__title}>{title}</Text>

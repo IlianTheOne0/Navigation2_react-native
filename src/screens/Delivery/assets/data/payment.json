@@ -1,0 +1,17 @@
+[
+	{
+		"title": "Credit Card",
+		"description": "Pay with your credit card securely",
+		"icon": "visa"
+	},
+	{
+		"title": "Apple Pay",
+		"description": "Pay quickly with Apple Pay",
+		"icon": "apple-pay"
+	},
+	{
+		"title": "Cash",
+		"description": "Pay with cash upon delivery",
+		"icon": "cash-in-hand"
+	}
+]

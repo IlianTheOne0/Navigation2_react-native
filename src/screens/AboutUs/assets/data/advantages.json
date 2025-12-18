@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"title": "Guaranteed quality",
+		"description": "We ensure that every product delivered meets the highest quality standards.",
+		"image": { "uri": "https://img.icons8.com/color/96/guarantee.png" }
+	},
+	{
+		"id": "2",
+		"title": "Fast Delivery",
+		"description": "Our fleet is always ready to bring your order in record time within the city.",
+		"image": { "uri": "https://img.icons8.com/color/96/truck.png" }
+	},
+	{
+		"id": "3",
+		"title": "24/7 Support",
+		"description": "Our support team is available around the clock to help you with any issues.",
+		"image": { "uri": "https://img.icons8.com/color/96/customer-support.png" }
+	},
+	{
+		"id": "4",
+		"title": "Secure Payment",
+		"description": "All transactions are encrypted and secure. We support all major cards.",
+		"image": { "uri": "https://img.icons8.com/color/96/safe.png" }
+	}
+]
